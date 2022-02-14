@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/png">
+        <title>MySite</title>
+        <style>
+            [v-cloak] {display: none;} 
+        </style> <!--избавляет сайт от начальных прорисовок(дерганий)-->
+    </head>
+
+    <body>
+        <div class="container" id="app">
+            <div class="info">
+                <img class = 'avatar' src="ivanAvatar.jpg" alt="Ivan">
+            <div class="info-text">
+                <h2>Иван Костов</h2>
+                <p id="work"><em>Графический дизайнер</em></p>
+                <h3>Социальные сети:</h3>
+                <div class="social">
+                    <a class="social-acc" target="_block" href="https://vk.com/ivankostov">VK</a> |
+                    <a class="social-acc" target="_block" href="https://t-do.ru/@GodOfThunder232">Telegram</a> |
+                    <a class="social-acc" target="_block" href="https://steamcommunity.com/id/JohnKostov/">Steam</a>
+                </div>
+            </div>
+
+            </div>
+            <hr>
+            <h2>Инструменты</h2>
+            <div class="hobbie">
+                <ul>
+                    <h4>Photoshop</h4>
+                    <h4>Illustrator</h4>
+                    <h4>Blender</h4>
+                    <h4>After Effect</li>
+                    <h4>In Design</li>
+                    <h4>Premier Pro</li>
+                </ul>
+            </div>
+
+
+            <hr>
+            <div? class="project-exmaple">
+                <table class="table-items">
+                    <h2>Проекты</h2>
+                    <div class="project-element">
+                        <tr class="project-element">
+                            <div>
+                                <td class="text-td">
+                                    <h3><em>Петух</em></h3>
+                                    <td><img class="images-elem" width="200px" src="Chiken.png" alt="Must be chicken"></td>
+                                </td>
+                            </div>
+                        </tr>
+                    </div>
+
+                    <div class="project-element">
+                        <tr class="project-element">
+                            <div>
+                                <td class="text-td">
+                                    <h3><em>Шевцов</em></h3>
+                                    <td><img class="images-elem" width="200px" src="Shevtsov.png" alt="Must be chicken"></td>
+                                </td>
+                            </div>
+                        </tr>
+                    </div>
+
+                    <div class="project-element">
+                        <tr class="project-element">
+                            <div>
+                                <td class="text-td">
+                                    <h3><em>Зазеркалье</em></h3>
+                                    <td><img class="images-elem" width="200px" src="Mirror.png" alt="Must be chicken"></td>
+                                </td>
+                            </div>
+                        </tr>
+                    </div>
+                </table>
+
+                <a target="_block" href="https://github.com/AlGIGU"><button id="developer" class="btn">Dev</button></a>
+                
+                <hr>
+
+            </div><!--container end-->
+
+
+        </div>
+
+        <script src="https://unpkg.com/vue@next"></script>
+        <script src="app.js"></script>
+    </div>
+    <div style='margin-bottom:50px'></div>
+    </body>
+</html>
